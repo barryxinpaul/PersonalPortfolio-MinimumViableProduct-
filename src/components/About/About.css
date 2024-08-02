@@ -1,0 +1,25 @@
+#aboutbackground {
+    background-image: url(../../assets/images/experiencegrad.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+#desc {
+    margin-top: -35rem;
+    margin-left: 70rem; /* Assuming base font size is 16px */
+    padding: 2.5rem; /* Assuming base font size is 16px */
+    padding-top: 5rem; /* Assuming base font size is 16px */
+    padding-bottom: 12.5rem; /* Assuming base font size is 16px */
+    color: white;
+    width: 30%;
+}
+#headshot {
+    width: 30%;
+    margin-top: 10rem;
+    margin-left: 15rem;
+    border-radius: 2rem;
+
+}

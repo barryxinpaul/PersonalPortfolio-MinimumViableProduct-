@@ -1,0 +1,33 @@
+#background {
+    background-image: url(../../assets/images/PRLGrad.png);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+    width: 100vw;
+    min-height: 150vh; /* Changed from height to min-height */
+}
+
+
+#ExperienceTitle {
+    margin-left: 90px;
+    color: white;
+}
+
+.images {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    margin-top: -700px;
+    margin-right: 50px;
+}
+
+#imageslist {
+    display: flex;
+    justify-content: space-around;
+    align-items: end;
+    margin-top: 100px;
+}
+
+#ExperienceHero {
+    min-height: 100vh;
+}

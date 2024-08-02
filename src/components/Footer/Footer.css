@@ -1,0 +1,25 @@
+* {
+    box-sizing: border-box;
+}
+
+#footerlist {
+    background-color: #333333;
+    width: 100%;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.625rem; /* 10px */
+    margin: 0;
+    position: relative;
+}
+
+.footerlink {
+    margin: 0.625rem; /* 10px */
+    color: white;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}

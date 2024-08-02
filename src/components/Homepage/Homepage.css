@@ -1,0 +1,138 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    overflow-x: hidden;
+}
+
+.homepagegradient {
+    background-image: url(../../assets/images/homepagegradient.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+.navbar {
+    display: flex;
+    justify-content: flex-end;
+    padding: 1rem;
+    width: 100%;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+}
+
+#name {
+    color: white;
+    font-size: 2rem; /* 2rem is equal to 32px if base font-size is 16px */
+    margin: 6.25rem 0 1.25rem 21.875rem; /* 100px 0 2rem 350px */
+    width: auto;
+}
+
+#phrase {
+    color: white;
+    margin: -3.125rem 0 0.625rem auto; /* -50px 0 1rem auto */
+    margin-right: 46.875rem; /* 750px */
+    width: auto;
+}
+
+.inline-container {
+    display: flex;
+    align-items: flex-start;
+    width: 100%;
+    margin-left: 17.8125rem; /* 285px */
+}
+
+#memo {
+    color: white;
+    margin-top: -2rem; /* -2rem is the same as -32px */
+    margin-left: 17.8125rem;
+    list-style-type: none;
+    display: flex;
+}
+
+.facts {
+    padding: 2rem; /* 2rem is equal to 32px */
+}
+
+#Hero {
+    padding-top: 5rem;
+    padding-bottom: 25rem;
+    width: 100%;
+}
+
+#PRL {
+    margin-top: 10rem;
+    margin-left: 20%;
+    width: 80%;
+}
+
+#PRLSub {
+    margin: -9rem auto 0 40rem;
+    width: 100%;
+}
+
+#HT {
+    margin-top: 10rem;
+    margin-left: 50%;
+    width: 80%;
+}
+
+#HTLogo {
+    margin: 0 auto;
+    width: 20%;
+}
+
+#HTSub {
+    margin-top: -17rem;
+    margin-left: -45rem;
+    width: 100%;
+}
+
+@media (max-width: 1200px) {
+    #name, #phrase, #memo {
+        margin: 1rem;
+    }
+
+    #PRL, #HT {
+        margin-left: 5%;
+    }
+
+    #PRLSub, #HTLogo, #HTSub {
+        margin-left: 0;
+    }
+}
+
+@media (max-width: 768px) {
+    #name, #phrase, #memo {
+        font-size: 1.5rem;
+    }
+
+    #Hero {
+        padding-top: 2rem;
+        padding-bottom: 20rem;
+    }
+
+    #PRL, #HT {
+        margin-left: 2%;
+    }
+}
+
+@media (max-width: 480px) {
+    #name, #phrase, #memo {
+        font-size: 1rem;
+    }
+
+    #Hero {
+        padding-top: 1rem;
+        padding-bottom: 15rem;
+    }
+}

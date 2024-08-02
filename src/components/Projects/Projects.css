@@ -1,0 +1,14 @@
+#projectsbackground {
+    background-image: url(../../assets/images/ProjectsGrad.png);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+.project {
+    background-color: yellow;
+    width: 400px;
+    height: 200px;
+}
